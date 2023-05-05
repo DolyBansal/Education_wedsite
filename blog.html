@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university web design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="navbar" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our certificate & Online programs for 2023</h1>
+    </section>
+
+    <!-- -------blog content page---- -->
+    <section class="blog_content">
+        <div class="row">
+            <div class="row_left">
+                <img src="certificate.jpg" alt="">
+                <h2>Our certificate & Online programs for 2023</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore ut impedit id sed nemo quam
+                    minus, magnam assumenda error corporis repellendus corrupti ipsum, molestiae non dolor aliquid
+                    cupiditate necessitatibus iure? Sunt esse ducimus facere in et quas perspiciatis! Praesentium magnam
+                    obcaecati dolor. Quidem, iusto. Odio veniam eaque dolores rerum excepturi magnam, voluptates minus
+                    possimus quos. Porro obcaecati sit voluptatibus sequi neque architecto veniam expedita nemo nesciunt
+                    recusandae e
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore ut impedit id sed nemo quam
+                    minus, magnam assumenda error corporis repellendus corrupti ipsum, molestiae non dolor aliquid
+                    cupiditate necessitatibus iure? Sunt esse ducimus facere in et quas perspiciatis! Praesentium magnam
+                    obcaecati dolor. Quidem, iusto. Odio veniam eaque dolores rerum excepturi magnam, voluptates minus
+                    possimus quos. Porro obcaecati sit voluptatibus sequi neque architecto veniam expedita nemo nesciunt
+                    recusandae e
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore ut impedit id sed nemo quam
+                    minus, magnam assumenda error corporis repellendus corrupti ipsum, molestiae non dolor aliquid
+                    cupiditate necessitatibus iure? Sunt esse ducimus facere in et quas perspiciatis! Praesentium magnam
+                    obcaecati dolor. Quidem, iusto. Odio veniam eaque dolores rerum excepturi magnam, voluptates minus
+                    possimus quos. Porro obcaecati sit voluptatibus sequi neque architecto veniam expedita nemo nesciunt
+                    recusandae e
+                </p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime labore ut impedit id sed nemo quam
+                    minus, magnam assumenda error corporis repellendus corrupti ipsum, molestiae non dolor aliquid
+                    cupiditate necessitatibus iure? Sunt esse ducimus facere in et quas perspiciatis! Praesentium magnam
+                    obcaecati dolor. Quidem, iusto. Odio veniam eaque dolores rerum excepturi magnam, voluptates minus
+                    possimus quos. Porro obcaecati sit voluptatibus sequi neque architecto veniam expedita nemo nesciunt
+                    recusandae e
+                </p>
+                <div class="comment_box">
+                    <h3>Leave a comment</h3>
+                    <form  class="comment_form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="button btn">Post Comment</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row_right">
+                <h3>Post categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>computer science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Jouralism</span>
+                    <span>22</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----footer---- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iste voluptatem optio reiciendis provident.
+            Dolore officiis ut maiores<br> error tempora at enim. Adipisci assumenda, consequatur veritatis inventore
+            placeat nam distinctio!</p>
+        <div class="icons">
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <p>made with <i class="fa fa-heart-o"></i>Easy Tutorials</p>
+        </div>
+    </section>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
